@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStore.Staffs", "BikeStore.Staffs\BikeStore.Staffs.csproj", "{B78069E4-D625-48BF-A661-B43679DCF9B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F1A1EFE-2968-43A3-8308-0ECBC118168B} = {1F1A1EFE-2968-43A3-8308-0ECBC118168B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeStore.DataAccess", "BikeStore.DataAccess\BikeStore.DataAccess.csproj", "{1F1A1EFE-2968-43A3-8308-0ECBC118168B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B78069E4-D625-48BF-A661-B43679DCF9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78069E4-D625-48BF-A661-B43679DCF9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78069E4-D625-48BF-A661-B43679DCF9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78069E4-D625-48BF-A661-B43679DCF9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1A1EFE-2968-43A3-8308-0ECBC118168B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1A1EFE-2968-43A3-8308-0ECBC118168B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1A1EFE-2968-43A3-8308-0ECBC118168B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1A1EFE-2968-43A3-8308-0ECBC118168B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3F93768-8015-4CF0-8966-16416714CF80}
+	EndGlobalSection
+EndGlobal
